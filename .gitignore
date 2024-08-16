@@ -1,0 +1,6 @@
+automl
+logs.log
+train copy.csv
+.ipynb_checkpoints
+# best_model.pkl
+# dataset.csv
