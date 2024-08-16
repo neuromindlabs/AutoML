@@ -17,7 +17,7 @@ if os.path.exists("./dataset.csv"):
 
 
 with st.sidebar:
-    st.image("asset/main_img.mp4")
+    st.image("asset/main_img.jpeg")
     st.title("AutoML:Minion")
     choice = st.radio("Navigation", ["Upload", "Profiling", "Modelling", "Download"])
     st.info("From CSV input to comprehensive data analysis and the best-trained model in one streamlined process.")
