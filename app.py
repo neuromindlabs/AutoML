@@ -37,9 +37,12 @@ if choice == "Upload":
 
 if choice == "Profiling":
     st.title("Exploratory Data Analysis")
-    if st.button("View EDA Report"):
+    # if st.button("Download EDA Report"):
+    with open("SWEETVIZ_REPORT.html", "rb") as f:
         report = sv.analyze(df)
         report.show_html()
+        st.download_button("Download EDA Report", f, file_name="SWEETVIZ_REPORT.html")
+
 
 if choice == "Modelling":
     st.title("Model Training")
