@@ -20,7 +20,7 @@ with st.sidebar:
     st.title("AutoML")
     choice = st.radio("Navigation", ["Upload", "Profiling", "Modelling", "Download"])
     st.info("This project application helps you build and explore your data.")
-    model_type = st.radio("Choose the Model Type", ["Regression", "Classification"])
+
 
 if choice == "Upload":
     st.title("Upload Your Dataset")
