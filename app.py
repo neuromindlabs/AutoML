@@ -12,6 +12,8 @@ import sweetviz as sv
 import pandas as pd
 import os
 
+st.set_page_config(page_title="AutoML:Minion", page_icon="⚙️")
+
 if os.path.exists("./dataset.csv"):
     df = pd.read_csv("dataset.csv", index_col=None)
 
@@ -20,7 +22,9 @@ with st.sidebar:
     st.image("asset/main_img.jpeg")
     st.title("AutoML:Minion")
     choice = st.radio("Navigation", ["Upload", "Profiling", "Modelling", "Download"])
-    st.info("From CSV input to comprehensive data analysis and the best-trained model in one streamlined process.")
+    st.info(
+        "From CSV input to comprehensive data analysis and the best-trained model in one streamlined process."
+    )
 
 
 if choice == "Upload":
