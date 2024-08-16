@@ -38,7 +38,11 @@ if choice == "Profiling":
 
 if choice == "Modelling":
     st.title("Model Training")
-    model_type = st.radio("Choose the Model Type", ["Regression", "Classification"])
+    model_type = st.radio(
+        "Choose the Model Type",
+        ["Regression", "Classification"],
+        key="model_type_selection",
+    )
     chosen_target = st.selectbox("Choose the Target Column", df.columns)
 
     if st.button("Run Modelling"):
