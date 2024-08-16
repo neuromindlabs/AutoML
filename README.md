@@ -13,7 +13,7 @@ Streamline the model creation process with our user-friendly, no-code interface 
 Clone the project
 
 ```bash
-   git clone https://github.com/Tejas911/AutoML.git
+   git clone https://github.com/neuromindlabs/AutoML.git
 ```
 
 
@@ -23,7 +23,7 @@ Clone the project
 Install requirements 
 
 ```bash
-  pip install -r requirements.rtf
+  pip install -r requirements.txt
 ```
 ##### Launch App:
 Launch the streamlit app by running the follwoing command in your project folder:
@@ -41,20 +41,23 @@ Launch the streamlit app by running the follwoing command in your project folder
 ## Screenshots
 ### Upload Dataset
 <div align="center">
-  <img src="Assets/Dataset.png" alt="SS1" width="1000">
+  <img src="asset/ss1.png" alt="SS1" width="1000">
 </div>
 
 ### Analyse EDA Report
 <div align="center">
-  <img src="Assets/EDA Report.png" alt="SS2" width="1000">
+  <img src="asset/ss2.png" alt="SS2" width="1000">
 </div>
 
 ### Model Training
 <div align="center">
-  <img src="Assets/Model Traning.png" alt="SS2" width="1000">
+  <img src="asset/ss3.png" alt="SS2" width="1000">
+</div>
+<div align="center">
+  <img src="asset/ss4.png" alt="SS2" width="1000">
 </div>
 
 ### Download Trained Model
 <div align="center">
-  <img src="Assets/Download Trained Model.png" alt="SS2" width="1000">
+  <img src="asset/ss5.png" alt="SS2" width="1000">
 </div>
