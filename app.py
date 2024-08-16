@@ -15,11 +15,12 @@ import os
 if os.path.exists("./dataset.csv"):
     df = pd.read_csv("dataset.csv", index_col=None)
 
+
 with st.sidebar:
-    st.image("https://www.onepointltd.com/wp-content/uploads/2020/03/inno2.png")
-    st.title("AutoML")
+    st.image("asset/main_img.jpeg")
+    st.title("AutoML:Minion")
     choice = st.radio("Navigation", ["Upload", "Profiling", "Modelling", "Download"])
-    st.info("This project application helps you build and explore your data.")
+    st.info("From CSV input to comprehensive data analysis and the best-trained model in one streamlined process.")
 
 
 if choice == "Upload":
