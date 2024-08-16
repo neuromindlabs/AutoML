@@ -1,0 +1,6 @@
+streamlit
+plotly
+pycaret
+sweetviz
+pandas
+sweetviz
