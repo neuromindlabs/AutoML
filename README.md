@@ -1,5 +1,8 @@
 <div align="center">
-  <h1><a href="https://huggingface.co/spaces/neuromindlabs/AUTOML" target="_blank">ML AutoPilot 🛠️✈⚙️</a></h1>
+  <h1>ML AutoPilot 🛠️✈⚙️</a></h1>
+</div>
+<div align="center">
+  <h2>https://huggingface.co/spaces/neuromindlabs/AUTOML</h2>
 </div>
 
 <div align="center">
@@ -10,7 +13,7 @@ Streamline the model creation process with our user-friendly, no-code interface 
 <br>
 
 ##  Project Deployment
-The project is currently hosted with the help of Hugging Face Spaces. You can access the live version of the application through this [link](https://huggingface.co/spaces/neuromindlabs/AUTOML).
+The project is currently hosted with the help of Hugging Face Spaces. You can access the live version of the application through this link https://huggingface.co/spaces/neuromindlabs/AUTOML.
 
 ## Key Features
 - **Data Analysis:** Generates a detailed report with key statistics and insights.<br>
